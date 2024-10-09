@@ -20,12 +20,13 @@ export const Button = ({ title, onPress }: ButtonProps) => {
 const styles = StyleSheet.create({
   btnTouchOpac: {
     backgroundColor: COLORS.primary,
-    padding: 16,
+    padding: 10,
     borderRadius: 5,
     marginTop: 10,
+    marginBottom: 10,
   },
   txtBtnTouchOpac: {
     color: 'white',
-    fontSize: 24,
+    fontSize: 18,
   },
 })

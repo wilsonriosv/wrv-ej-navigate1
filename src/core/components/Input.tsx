@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   txtInput: {
     backgroundColor: COLORS.white,
     width: 300,
-    padding: 16,
+    padding: 10,
     borderRadius: 8, // Bordes redondeados
     borderColor: COLORS.secondary, // Color del borde
     borderWidth: 1, // Ancho del borde
