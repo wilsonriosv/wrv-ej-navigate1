@@ -1,16 +1,9 @@
-import { Button, Input } from '@core'
+import { Button, Input, NavigationApp } from '@core'
 import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View } from 'react-native'
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Button title='Boton' onPress={() => alert('Alerta')} />
-      <Input value='Input' onChange={() => console.log()} />
-      <StatusBar style='auto' />
-    </View>
-  )
+  return <NavigationApp />
 }
 
 const styles = StyleSheet.create({
